@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PICT Virtual Lab | Registration</title>
+    <link rel="icon" href="pict.png" />
+    <link rel="stylesheet" href="register.css" />
+  </head>
+  <body class="register-body" style="position: relative">
+    <!-- <div style="position: absolute; top: 20px; right: 20px">
+      <img src="pict.png" height="80px" />
+    </div> -->
+
+    <main class="container">
+      <!-- 
+        name , reg id , unique key(set by admin), email, password, confirm password
+    -->
+      <div class="reg-heading">Create an account</div>
+      <form id="registerForm">
+        <section class="reg-section left">
+          <div class="input-wrapper">
+            <input
+              id="name"
+              type="text"
+              class="register-input"
+              placeholder="Full Name"
+            />
+            <small>Error Message</small>
+          </div>
+
+          <div class="input-wrapper">
+            <input
+              id="regID"
+              type="text"
+              class="register-input"
+              placeholder="College Reg. ID"
+            />
+            <small>Error Message</small>
+          </div>
+          <div class="input-wrapper">
+            <input
+              id="uniqueKey"
+              type="text"
+              class="register-input"
+              placeholder="Unique Key"
+            />
+            <small>Error Message</small>
+          </div>
+        </section>
+        <section class="reg-section right">
+          <div class="input-wrapper">
+            <input
+              id="email"
+              type="text"
+              class="register-input"
+              placeholder="Email Id"
+            />
+            <small>Error Message</small>
+          </div>
+
+          <div class="input-wrapper">
+            <input
+              id="password1"
+              type="password"
+              class="register-input"
+              placeholder="Password"
+            />
+            <small>Error Message</small>
+          </div>
+          <div class="input-wrapper">
+            <input
+              id="password2"
+              type="password"
+              class="register-input"
+              placeholder="Confirm Password"
+            />
+            <small>Error Message</small>
+          </div>
+        </section>
+      </form>
+      <button
+        class="register-input"
+        id="registerBtn"
+        type="submit"
+        form="registerForm"
+      >
+        REGISTER
+      </button>
+      <div class="reg-redirect">
+        Already registered?
+        <a href="" style="text-decoration: none; color: #009f98">Sign in</a>
+      </div>
+    </main>
+  </body>
+  <script src="register.js"></script>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PICT Virtual Lab | My Profile</title>
+    <link rel="icon" href="pict.png" />
+    <link rel="stylesheet" href="profile.css" />
+  </head>
+  <body class="profile-body">
+    <div class="profile-heading">Edit Profile</div>
+    <div class="profile-photo">31143</div>
+    <main class="container">
+      <div class="profile-row">
+        <input
+          type="text"
+          class="profile-input"
+          placeholder="First Name"
+          style="width: 35%"
+          value="Nimish"
+        />
+        <input
+          type="text"
+          class="profile-input"
+          placeholder="Last Name"
+          style="width: 35%"
+          value="Dadlani"
+        />
+      </div>
+      <div class="profile-row input-wrapper">
+        <input
+          id="email"
+          type="text"
+          class="profile-input"
+          placeholder="Email Id"
+          value="nmd2611@gmail.com"
+        />
+        <small>Error Message</small>
+      </div>
+      <div class="profile-row input-wrapper">
+        <input
+          id="phone"
+          type="text"
+          class="profile-input"
+          placeholder="Contact Number"
+          value="9876543210"
+        />
+        <small>Error Message</small>
+      </div>
+      <div class="profile-row">
+        <div class="input-wrapper">
+          <input
+            id="password1"
+            type="password"
+            class="profile-input"
+            placeholder="Password"
+            style="width: 60%"
+            value="password"
+          />
+          <small>Error Message</small>
+        </div>
+
+        <div class="input-wrapper">
+          <input
+            id="password2"
+            type="password"
+            class="profile-input"
+            placeholder="Confirm Password"
+            style="width: 60%"
+            value="password"
+          />
+          <small>Error Message</small>
+        </div>
+      </div>
+      <div class="profile-row">
+        <div class="save-button" id="cancel">
+          <button id="cancel">Cancel</button>
+        </div>
+        <div class="save-button" id="save">
+          <button id="save">Save</button>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="profile.js"></script>
+</html>

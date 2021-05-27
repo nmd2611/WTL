@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.profile-body {
+  font-family: "Fira Sans", sans-serif;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  flex-direction: column;
+
+  height: 100vh;
+}
+
+.profile-heading {
+  font-size: 30px;
+
+  text-align: center;
+  margin-top: 50px;
+
+  font-weight: 700;
+}
+
+.profile-photo {
+  height: 110px;
+  width: 110px;
+
+  border-radius: 50%;
+
+  background-color: coral;
+
+  margin-top: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+
+  margin-top: 20px;
+}
+
+.profile-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+}
+
+.profile-input {
+  border-radius: 4px;
+  outline: none !important;
+
+  height: 35px;
+  width: 80%;
+  min-width: 100px;
+  padding: 10px 15px;
+  margin: 0px 28px;
+
+  font-size: 15px;
+
+  border: 1px solid #dce4ec;
+  color: #2c3e50;
+
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+}
+
+.save-button {
+  /* width: 100px; */
+
+  margin-top: 40px;
+
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+}
+
+.btn-row {
+  background-color: pink;
+  width: 100%;
+}
+
+#cancel {
+  padding: 5px 10px;
+
+  border-radius: 5px;
+  border: none;
+
+  outline: none !important;
+  cursor: pointer;
+
+  background-color: #f1939c;
+
+  margin-right: 10px;
+}
+
+#save {
+  padding: 5px 10px;
+
+  border-radius: 5px;
+  border: none;
+  outline: none !important;
+  cursor: pointer;
+
+  background-color: #68d682;
+
+  margin-left: 10px;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 10px 0;
+}
+
+.input-wrapper small {
+  align-self: flex-start;
+  visibility: hidden;
+  color: #e74c3c;
+
+  margin: 5px 68px;
+}
+
+.success {
+  border-color: #2ecc71;
+}
+
+.error {
+  border-color: #e74c3c;
+}
